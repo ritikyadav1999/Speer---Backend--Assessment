@@ -42,17 +42,34 @@ Running commands with npm `npm run [command]`
 | `POST /api/auth/signup` | Create a new user account                                           |
 | `POST /api/auth/login`  | Log in to an existing user account and receive an access token      |
 
-#### User Registration takes 3 required properties:
+#### Signing Up takes 3 required properties:
 1. name
-2. email,
+2. email
 3. password
    
 ```
-eg.
-const user = {name:"Ritik", email:"me.ritik.yadav@gmai.com , password:"password""}
+{name:"Ritik", email:"me.ritik.yadav@gmail.com , password:"password"}
+```
+
+### Logging In takes 2 required properties:
+1. email
+2. password
+
+```
+{email:"me.ritik.yadav@gmai.com , password:"password"}
 ```
 
 ## Note Endpoints
+
+#### All these Endpoint require Sign In
+```
+After Logging In copy the token and set it to the req.headers.authorization
+```
+
+#### Example
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/a620a828-86fe-4878-a39a-a2dd78d23400)
+
+
 
 |           Endoints          |                         description                                 |
 | :---------------------------| :-------------------------------------------------------------------|
