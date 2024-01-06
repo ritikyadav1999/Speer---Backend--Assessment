@@ -56,7 +56,7 @@ exports.getAllNotes = async (req, res) => {
 
         res.status(200).send({
             success: true,
-            message: "Note created successfully",
+            message: "Notes Fetched successfully",
             TotalNotes: user.notes.length,
             notes: user.notes
         })
