@@ -1,6 +1,8 @@
 # Speer BackEnd Assessment
 Elevate your Note-taking experience with this powerful backend. Discover the convenience of seamless synchronization, top-notch security, and customizable options. Start your journey to enhanced productivity today!"
 
+### Deployed on Cyclic: https://nice-fez-ox.cyclic.app
+
 ## Tech Stack
 1. JavaScript
 2. NodeJs
