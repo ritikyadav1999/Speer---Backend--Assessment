@@ -97,3 +97,60 @@ After Logging In copy the token and set it to the req.headers.authorization
 | `GET /api/search?q=:query`  | Search for notes based on keywords for the authenticated user.      |
 
 
+
+## ScreenShot of the Working of Application
+
+1. **User SignUp**
+```
+{
+    "name":"Rakesh kumar",
+    "email":"me.rakesh.yadav@gmail.com",
+    "password":"123456789"
+}
+```
+
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/190702c3-f4f7-467f-ab68-85e470509179)
+
+
+2. **User Log In**
+```
+{
+    "email":"me.rakesh.yadav@gmail.com",
+    "password":"123456789"
+}
+```
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/141b88b2-178d-48c4-83cc-0162458768d7)
+
+
+3. **Create a Note**
+```
+{
+    "title":"Creatiing a Note",
+    "body":"This is a note"
+}
+```
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/b5489198-28c6-406e-9693-90c0541a0530)
+
+4. **Getting all Notes**
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/7284f864-53f2-47b1-b595-8dab12b6bf2f)
+
+5. **Getting a particular Note by Id**
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/a38eeb25-d0a3-421c-8b33-3a567b4410ca)
+
+6. **Updating a particular Note by Id**
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/43813fdc-9d19-4d33-a978-f54d87ac6254)
+
+7.**Deleting a particular Note by Id**
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/bf50798e-e3f2-49ab-8d50-846045d7998c)
+
+8. **Sharing a newly created Note with other user**
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/ae07d944-b7bc-40a8-bffb-35cec1c19591)
+
+9.**Searching a Note with keyword**
+![image](https://github.com/ritikyadav1999/Speer---Backend--Assessment/assets/122474267/b968b8bb-72aa-4103-b897-f3e760260025)
+
+
+
+
+
+
