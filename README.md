@@ -66,7 +66,7 @@ Running commands with npm `npm run [command]`
 {name:"Ritik", email:"me.ritik.yadav@gmail.com , password:"password"}
 ```
 
-### Logging In takes 2 required properties:
+#### Logging In takes 2 required properties:
 1. email
 2. password
 
