@@ -3,7 +3,7 @@ Elevate your Note-taking experience with this powerful backend. Discover the con
 
 ## Deployed on Cyclic
 ```
-https://nice-fez-ox.cyclic.app
+https://notetaking.cyclic.app/
 ```
 <p> Use the Endpoint given below and you can directly use the application</p>
 
