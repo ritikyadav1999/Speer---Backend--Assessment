@@ -36,6 +36,12 @@ app.use(bodyParser.json());
 
 
 // routes
+
+// Handling the Hompage 
+app.get('/',(req,res)=>{
+    res.status(200).send({message:"Welcome to HomePage"})
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/notes/', notesRoutes)
 
