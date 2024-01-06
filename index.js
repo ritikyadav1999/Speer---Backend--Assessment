@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 const connectDB = require('./config/database');
 const authRoutes = require("./routes/authRoutes");
 const notesRoutes = require('./routes/notesRoute');
+const homePageRoutes = require('./routes/homePageRoutes');
 const rateLimit = require('express-rate-limit');
 
 // configure env
@@ -38,9 +39,7 @@ app.use(bodyParser.json());
 // routes
 
 // Handling the Hompage 
-app.get('/',(req,res)=>{
-    res.status(200).send({message:"Welcome to HomePage"})
-});
+app.get('/',homePageRoutes);
 
 app.use('/api/auth', authRoutes);
 app.use('/api/notes/', notesRoutes)
