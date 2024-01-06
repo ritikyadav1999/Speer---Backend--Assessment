@@ -22,7 +22,7 @@ router.get('/:id', requireSignIn, getNoteById)
 router.post("/", requireSignIn, createNote)
 router.put("/:id", requireSignIn, updateNoteById)
 router.delete("/:id", requireSignIn, deleteNoteById)
-router.get('/:id/share', requireSignIn, shareNoteById)
+router.post('/:id/share', requireSignIn, shareNoteById)
 
 
 
