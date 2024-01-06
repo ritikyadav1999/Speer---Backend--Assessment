@@ -1,5 +1,20 @@
 # Speer BackEnd Assessment
-<p>This is a repository for a REST API using JavaScript, NodeJs, ExpressJs, and MongoDB</p>
+Elevate your Note-taking experience with this powerful backend. Discover the convenience of seamless synchronization, top-notch security, and customizable options. Start your journey to enhanced productivity today!"
+
+## Tech Stack
+1. JavaScript
+2. NodeJs
+3. ExpressJs
+4. MongoDB
+5. Jest
+
+### Features
+1. **Authentication**: Secure your API endpoints using JWT-based authentication.
+2. **Note Management**: Create, read, update, and delete notes with ease.
+3. **Rate Limiting**: Implement rate limiting using middleware to prevent abuse or DoS attacks.
+4. **Text Index Search**: Utilize MongoDB text indexes for efficient search operations.
+5. **Testing**: Includes comprehensive tests using Jest.
+
 
 ### Install packages
 
