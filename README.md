@@ -2,7 +2,9 @@
 Elevate your Note-taking experience with this powerful backend. Discover the convenience of seamless synchronization, top-notch security, and customizable options. Start your journey to enhanced productivity today!"
 
 ## Deployed on Cyclic
-`https://nice-fez-ox.cyclic.app`
+```
+https://nice-fez-ox.cyclic.app
+```
 <p> Use the Endpoint given below and you can directly use the application</p>
 
 ## Tech Stack
